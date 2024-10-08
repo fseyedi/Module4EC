@@ -14,7 +14,7 @@ while (true) {
 
 while (true) {
     rate = parseFloat(prompt('Enter interest rate as xx.x'));
-    if (!isNaN(rate) && rate > 0 && rate <= 0.10) break;
+    if (!isNaN(rate) && rate > 0 && rate <= 7) break;
     alert('Please enter a valid interest rate.');
 }
 
